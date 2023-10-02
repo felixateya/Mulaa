@@ -18,7 +18,8 @@ function CustomLink({ to, children }) {
 
 function Navbar() {
   return (
-    <section id="header">
+    <section id="header" data-aos = "fade-down"data-aos-easing="linear"
+    data-aos-duration="1500">
         <Link to="/" className="navbar-title">
           <h3 className="title-first-name">Felix</h3>
           <h3 className="title-last-name">Mulaa</h3>
