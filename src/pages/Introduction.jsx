@@ -20,9 +20,9 @@ function handleIndexValue (index){
   return (
     <>
     <Navbar activeIndex = {activeIndex} handleIndexValue={handleIndexValue}/>
-    <section id="introduction" data-aos="fade-down"
+    <section id="introduction" data-aos="fade-up"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="500">
       <div className="cards">
         <DesignCard
           className={`design-card ${activeIndex === 0  ? 'active' : ''}`}

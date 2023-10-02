@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
     <Navbar/>
-    <section id="content-body" data-aos="fade-down"
+    <section id="content-body" data-aos="fade-up"
      data-aos-easing="linear"
-     data-aos-duration="1500">
+     data-aos-duration="500">
     <div className="body-part-1">
       <div className="developer-intro">
         <p>Full-Stack Developer</p>
