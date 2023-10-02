@@ -9,7 +9,7 @@ function Footer() {
     <>
 
     <Navbar/>
-    <section id="footer" data-aos="fade-up"
+    <section id="footer" data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="500">
   <div className="footer-left">

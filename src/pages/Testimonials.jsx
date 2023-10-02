@@ -21,7 +21,7 @@ function handleIndexValue (index){
     <>
 
 <Navbar/>
-<section id="testimonial" data-aos="fade-up"
+<section id="testimonial" data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="500">
   <div className="testimonial-title">

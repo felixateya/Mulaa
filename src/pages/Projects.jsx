@@ -11,7 +11,7 @@ function Projects() {
     <>
 
     <Navbar/>
-    <section id="latest-works" data-aos="fade-up"
+    <section id="latest-works" data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="500">
       <div className="left-project">

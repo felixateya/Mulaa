@@ -20,7 +20,7 @@ function handleIndexValue (index){
   return (
     <>
     <Navbar activeIndex = {activeIndex} handleIndexValue={handleIndexValue}/>
-    <section id="introduction" data-aos="fade-up"
+    <section id="introduction" data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="500">
       <div className="cards">

@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
     <Navbar/>
-    <section id="content-body" data-aos="fade-up"
+    <section id="content-body" data-aos="zoom-in"
      data-aos-easing="linear"
      data-aos-duration="500">
     <div className="body-part-1">
