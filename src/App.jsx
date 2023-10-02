@@ -12,17 +12,19 @@ import Testimonials from "./pages/Testimonials";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect} from "react";
 import AOS from "aos";
 
 
 
 function App() {
+
+  
+
   useEffect(()=>{
     AOS.init()
-    
   }, [])
 
   return (
