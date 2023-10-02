@@ -79,7 +79,7 @@ function Navbar() {
             {/* <i className="fa-regular fa-envelope" /> */}
             <FaEnvelope />
             <a
-              href="mailto:felomulla@gmail.com"
+              href="mulaafelix6@gmail.com"
               rel="noreferrer"
               target="_blank"
             >
