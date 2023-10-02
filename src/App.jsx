@@ -13,16 +13,23 @@ import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
+
 
 
 function App() {
-
+  useEffect(()=>{
+    AOS.init()
+    
+  }, [])
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Skills" element={<Introduction />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/Skills" element={<Introduction/>} />
         <Route path="/Projects" element={<Projects/>} />
         <Route path="/Testimonials" element={<Testimonials/>} />
         <Route path="/Contact" element={<Footer/>} />

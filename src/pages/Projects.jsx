@@ -8,8 +8,12 @@ function Projects() {
   
 
   return (
-    <section id="latest-works">
+    <>
+
     <Navbar/>
+    <section id="latest-works" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
       <div className="left-project">
         <div className="latest-work-title">
           <h3>Latest Works</h3>
@@ -61,6 +65,7 @@ function Projects() {
         </a>
       </div>
     </section>
+    </>
   );
 }
 

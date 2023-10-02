@@ -1,12 +1,17 @@
 // import React from 'react'
 import Circle from '../components/Circle'
 import Navbar from '../components/Navbar'
+
+
 function Home() {
-    
+  
 
   return (
-    <section id="content-body">
+    <>
     <Navbar/>
+    <section id="content-body" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
     <div className="body-part-1">
       <div className="developer-intro">
         <p>Full-Stack Developer</p>
@@ -49,6 +54,8 @@ function Home() {
     </div>
     <Circle/>
   </section>
+
+    </>
   )
 }
 

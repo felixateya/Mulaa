@@ -6,8 +6,12 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaTwitter, FaInstagram, FaFacebook } 
 
 function Footer() {
   return (
-    <section id="footer">
+    <>
+
     <Navbar/>
+    <section id="footer" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
   <div className="footer-left">
     <h2>Let&apos;s make something amazing together</h2>
     <div className="email-form">
@@ -88,6 +92,7 @@ function Footer() {
     </div>
   </div>
 </section>
+    </>
 
   )
 }

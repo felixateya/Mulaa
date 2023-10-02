@@ -18,8 +18,12 @@ function handleIndexValue (index){
 }
 
   return (
-<section id="testimonial">
+    <>
+
 <Navbar/>
+<section id="testimonial" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
   <div className="testimonial-title">
     <h2>Testimonials</h2>
     <p>What clients say about me</p>
@@ -106,6 +110,7 @@ function handleIndexValue (index){
     </ProfileCard>
   </div>
 </section>
+    </>
 
     )
 }

@@ -1,11 +1,8 @@
 import {  Link, useLocation } from "react-router-dom";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-import PropTypes from "prop-types"
 
-CustomLink.propTypes = {
-  to: PropTypes.string,
-  children: PropTypes.element
-}
+
+
 
 function CustomLink({ to, children }) {
   const location = useLocation();
