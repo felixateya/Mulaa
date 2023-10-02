@@ -1,0 +1,9 @@
+@media(max-width:1024px){
+    #header{
+        padding:20px 0;
+        width: 1024px;
+    }
+    /* .navbar-menu, .social-media{
+        display: none;
+    } */
+}
