@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Link } from 'react-router-dom'
 import Circle from '../components/Circle'
 import Navbar from '../components/Navbar'
 
@@ -29,7 +30,7 @@ function Home() {
           <br />
           and I love what I do.
         </p>
-        <a href="#">LET&apos;S CHAT!</a>
+        <Link to="/Contact">LET&apos;S CHAT!</Link>
       </div>
       <div className="body-tail">
         <h1>2</h1>
