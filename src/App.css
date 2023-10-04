@@ -11,6 +11,33 @@
 html {
   scroll-behavior: smooth;
 }
+.btns {
+  position: relative;
+  && button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b840;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    border: none;
+  }
+}
+.next {
+  position: fixed;
+  right: 40px;
+  top: 305px;
+  z-index: 5;
+}
+
+.previous {
+  position: fixed;
+  left: 40px;
+  top: 305px;
+  z-index: 5;
+}
 
 h1 {
   font-size: 50px;
@@ -74,15 +101,10 @@ button.normal:hover {
   background-color: #088178;
 }
 
-
-
 body::selection {
   color: #000000;
   background: #64f4ac;
 }
-
-
-
 
 /* ---------- SECTION HEADER ---------- */
 #header {
@@ -103,11 +125,12 @@ body::selection {
   margin: 0;
 }
 
-/* #content-body {
+#content-body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-} */
+  height: 100vh;
+}
 
 .navbar-title {
   display: flex;
@@ -201,17 +224,17 @@ body::selection {
   display: flex;
   background-color: #2d2e32;
   align-items: flex-start;
-  height: 90vh;
+  height: 100vh;
   align-content: center;
   align-items: center;
   justify-content: space-around;
   padding: 100px 0 0 100px;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
   max-height: 100vh;
-  overflow-y: hidden ;
+  overflow-y: hidden;
 }
 
-.body-part-1{
+.body-part-1 {
   margin-top: 13%;
 }
 
@@ -336,7 +359,7 @@ body::selection {
   transition: background-color 0.2s ease-in-out;
 }
 
-.circle span:hover{
+.circle span:hover {
   background-color: #00b840;
 }
 
@@ -357,7 +380,6 @@ body::selection {
   background-color: #25262a;
   min-height: 95vh;
   align-items: center;
-  
 }
 
 .cards {
@@ -466,7 +488,8 @@ body::selection {
   justify-content: space-between;
 }
 
-.left-project , .right-project {
+.left-project,
+.right-project {
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -507,7 +530,7 @@ body::selection {
 }
 
 .project-card-3 {
-  background: linear-gradient(225deg, #01403A, #025951);
+  background: linear-gradient(225deg, #01403a, #025951);
 }
 
 .project-card .title {
@@ -550,11 +573,11 @@ body::selection {
   top: 75px;
   /* left: 15%; */
   /* object-fit: cover; */
-  transform:  rotate(-10deg);
+  transform: rotate(-10deg);
   transition: 0.3s ease-in-out;
 }
 
-.project-card:hover .project-img-1{
+.project-card:hover .project-img-1 {
   transform: scale(1.2) rotate(-10deg);
 }
 
@@ -671,11 +694,11 @@ body::selection {
   max-width: 85%;
 }
 
-.quote{
+.quote {
   position: relative;
   top: -100px;
   left: 1000px;
-  color: #FFFFFF40;
+  color: #ffffff40;
   font-size: 60px;
   margin: 0;
   padding: 0;
@@ -731,7 +754,7 @@ body::selection {
   text-decoration: none;
 }
 
-.single-profile-card div p a:hover{
+.single-profile-card div p a:hover {
   text-decoration: underline;
 }
 
@@ -821,7 +844,7 @@ body::selection {
 }
 
 .email-form div button:hover {
-  background-color: #45A877;
+  background-color: #45a877;
 }
 
 .footer-title {
@@ -850,13 +873,13 @@ body::selection {
 .footer-email-intro h6 {
   font-size: 18px;
   font-weight: 400;
-  color: #7C7D81;
+  color: #7c7d81;
   margin-top: 10px;
 }
 
 .footer-email-intro h3 {
   font-size: 26px;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   margin: 10px 0;
 }
@@ -897,7 +920,7 @@ body::selection {
 }
 
 .icon {
-  color: #FFF;
+  color: #fff;
   margin: 0 5px;
   transition: 0.3s ease;
   cursor: pointer;
