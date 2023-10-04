@@ -16,7 +16,7 @@ import { Route, Routes, useNavigate } from "react-router-dom";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import AOS from "aos";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 // function App() {
 //   const [step, setStep] = useState(0);
@@ -84,11 +84,11 @@ function App() {
   return (
     <>
       <div className="btns">
-        <button onClick={handlePrev} className="previous">
-          <FaArrowLeft />
+        <button onClick={handlePrev} className={step === 0 ?  'previous last' : 'previous'}>
+          <IoIosArrowBack />
         </button>
-        <button onClick={handleNext} className="next">
-          <FaArrowRight />
+        <button onClick={handleNext} className={step === 0 ?  'next last' : 'next'}>
+          <IoIosArrowForward />
         </button>
       </div>
       <Routes>
@@ -103,3 +103,14 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+

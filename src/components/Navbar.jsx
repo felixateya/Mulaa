@@ -58,7 +58,7 @@ function Navbar() {
           <li>
             {/* <i className="fa-brands fa-Linkedin-in" /> */}
             <FaLinkedin />
-            <a href="#" target="_blank">
+            <a href="/" target="_blank">
               LinkedIn
             </a>
           </li>
@@ -79,7 +79,7 @@ function Navbar() {
             <a
               href="mailto:mulaafelix6@gmail.com"
               rel="noreferrer"
-              target="_blank"
+              // target="_blank"
             >
               Email
             </a>

@@ -17,14 +17,21 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00b840;
+    background-color: transparent;
     color: #fff;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 24px;
     outline: none;
     border: none;
+    transition: 0.2s ease-in-out;
+
+    &&:hover{
+      background-color: #00b840;
+    }
   }
 }
+
+
 .next {
   position: fixed;
   right: 40px;
@@ -37,6 +44,10 @@ html {
   left: 40px;
   top: 305px;
   z-index: 5;
+}
+
+.last{
+  display: none;
 }
 
 h1 {

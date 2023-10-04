@@ -71,22 +71,22 @@ function Footer() {
       </ul>
     </div>
     <div className="social-icons">
-      <a href="#" target="_blank">
+      <a href="/" target="_blank">
         <FaLinkedin className="icon linkedin"/>
       </a>
       <a href="https://github.com/felixateya" rel="noreferrer" target="_blank">
         <FaGithub className="icon github"/>
       </a>
-      <a href="https://mulaafelix6@gmail.com" rel="noreferrer" target="_blank">
+      <a href="mailto:mulaafelix6@gmail.com" rel="noreferrer" target="_blank">
         <FaEnvelope className="icon email"/>
       </a>
-      <a href="#" target="_blank">
+      <a href="/" target="_blank">
         <FaTwitter className="icon twitter"/>
       </a>
-      <a href="#" target="_blank">
+      <a href="/" target="_blank">
         <FaInstagram className="icon insta"/>
       </a>
-      <a href="#" target="_blank">
+      <a href="/" target="_blank">
         <FaFacebook className="icon fb"/>
       </a>
     </div>
