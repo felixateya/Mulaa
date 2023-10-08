@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
     <Navbar/>
-    <section id="content-body" data-aos="zoom-in"
+    <section id="content-body" data-aos="fade-up"
      data-aos-easing="linear"
      data-aos-duration="500">
     <div className="body-part-1">
@@ -22,12 +22,12 @@ function Home() {
         {/* <h1>Talk is cheap<br>Show me the code</h1> */}
         <h1>
           Full Stack Wizard: Coding
-          <br />
+          
           and Designing Magic
         </h1>
         <p>
           I design and code beautifully simple things,
-          <br />
+          
           and I love what I do.
         </p>
         <Link to="/Contact">LET&apos;S CHAT!</Link>

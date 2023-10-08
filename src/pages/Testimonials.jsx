@@ -18,7 +18,7 @@ function handleIndexValue (index){
 }
 
   return (
-    <>
+    <div>
 
 <Navbar/>
 <section id="testimonial" data-aos="zoom-in"
@@ -110,7 +110,7 @@ function handleIndexValue (index){
     </ProfileCard>
   </div>
 </section>
-    </>
+    </div>
 
     )
 }

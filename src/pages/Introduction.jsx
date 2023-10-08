@@ -20,7 +20,7 @@ function handleIndexValue (index){
   return (
     <>
     <Navbar activeIndex = {activeIndex} handleIndexValue={handleIndexValue}/>
-    <section id="introduction" data-aos="zoom-in"
+    <section id="introduction" data-aos="fade-up"
      data-aos-easing="linear"
      data-aos-duration="500">
       <div className="cards">
@@ -34,7 +34,7 @@ function handleIndexValue (index){
                 <i className="fa-solid fa-wand-magic-sparkles" />
               </div>
               <p>Create design products with unique ideas that matters</p>
-              <a href="">20 PROJECTS</a>
+              <a href="/">20 PROJECTS</a>
             </>
           }
         />
@@ -75,7 +75,7 @@ function handleIndexValue (index){
         text = {
           <>
              <p>Introduction</p>
-        <h2>Hello! I&apos;m Felix Mulaa</h2>
+        <h2>UI/UX Design</h2>
         <h4>Crafting User Experiences that Delight and Inspire</h4>
         <p>
           I am a UI/UX designer who loves to create engaging and delightful user
@@ -97,7 +97,7 @@ function handleIndexValue (index){
         text = {
           <>
           <p>Introduction</p>
-        <h2>Hello! I&apos;m Felix Mulaa</h2>
+        <h2>Frontend Development</h2>
         <h4> The Web&apos;s &amp; Mobile&apos;s Magician</h4>
         <p>
           As a frontend developer, I create stunning and responsive web pages
@@ -115,7 +115,7 @@ function handleIndexValue (index){
         text = {
           <>
           <p>Introduction</p>
-        <h2>Hello! I&apos;m Felix Mulaa</h2>
+        <h2>Backend Development</h2>
         <h4>Coding with Efficiency</h4>
         <p>
           As a backend developer, I create robust and scalable web applications

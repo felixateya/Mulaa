@@ -24,31 +24,32 @@ function Navbar() {
           <h3 className="title-first-name">Felix</h3>
           <h3 className="title-last-name">Mulaa</h3>
         </Link>
+        
       <div>
         <ul className="navbar-menu">
           <li>
             <CustomLink to="/">
-              &lt; Home &gt;
+               Home 
             </CustomLink>
           </li>
           <li>
             <CustomLink to="/Skills" >
-              &lt; Skills &gt;
+               Skills 
             </CustomLink>
           </li>
           <li>
             <CustomLink to="/Projects" >
-              &lt; Projects &gt;
+               Projects 
             </CustomLink>
           </li>
           <li>
             <CustomLink to="/Testimonials" >
-              &lt; Testimonials &gt;
+               Testimonials 
             </CustomLink>
           </li>
           <li>
             <CustomLink to="/Contact" >
-              &lt; Contact &gt;
+               Contact 
             </CustomLink>
           </li>
         </ul>

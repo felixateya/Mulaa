@@ -283,7 +283,7 @@ body::selection {
 }
 
 .body-title p {
-  font-size: 12px;
+  font-size: 14px;
   padding: 20px 0;
   color: #cacaca;
   font-weight: 500;
@@ -394,7 +394,7 @@ body::selection {
 }
 
 .cards {
-  min-width: 50%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -426,7 +426,6 @@ body::selection {
 
 .design-card div {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   color: #fff;
   transition: 0.3s ease;
@@ -464,7 +463,7 @@ body::selection {
 
 .introduction-text {
   display: block;
-  min-width: 50%;
+  width: 50%;
   padding-right: 175px;
 }
 
@@ -495,7 +494,6 @@ body::selection {
   background-color: #25262a;
   padding: 150px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -546,7 +544,6 @@ body::selection {
 
 .project-card .title {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -560,7 +557,6 @@ body::selection {
 
 .project-card .title .tech-stack {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -647,8 +643,7 @@ body::selection {
 
 .testimonial-title {
   display: flex;
-  flex-direction: row;
-  max-width: 50%;
+  width: 50%;
   justify-content: space-between;
   align-items: end;
 }
@@ -680,7 +675,6 @@ body::selection {
 
 .star-rating {
   display: flex;
-  flex-direction: row;
   color: #64f4ac;
   align-items: center;
   margin: 0 0 20px 0;
@@ -717,7 +711,6 @@ body::selection {
 
 .client-profile-card {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 20px 0;
   cursor: pointer;
@@ -726,7 +719,6 @@ body::selection {
 
 .single-profile-card {
   display: flex;
-  flex-direction: row;
   height: 100px;
   width: 30%;
   border-bottom: 3px dashed #7c7d81;
@@ -772,7 +764,6 @@ body::selection {
 /* ----------FOOTER---------- */
 #footer {
   display: flex;
-  flex-direction: row;
   padding: 100px;
   background-color: #25262a;
   height: 100vh;
@@ -831,7 +822,6 @@ body::selection {
 
 .email-form div {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -860,7 +850,6 @@ body::selection {
 
 .footer-title {
   display: flex;
-  flex-direction: row;
 }
 
 .footer-right {
