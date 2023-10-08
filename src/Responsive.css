@@ -74,6 +74,7 @@
 #testimonial{
 width: 80%;
     padding: 100px 0;
+    height: max-content;
 }
 
 .testimonial-title{
