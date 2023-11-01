@@ -5,6 +5,7 @@ import { useState } from "react";
 import DesignCard from "../components/DesignCard";
 import IntroductionText from "../components/IntroductionText";
 import Navbar from "../components/Navbar";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -34,7 +35,7 @@ function handleIndexValue (index){
                 <i className="fa-solid fa-wand-magic-sparkles" />
               </div>
               <p>Create design products with unique ideas that matters</p>
-              <a href="/">20 PROJECTS</a>
+              <NavLink to="/Projects">20 PROJECTS</NavLink>
             </>
           }
         />
@@ -48,7 +49,7 @@ function handleIndexValue (index){
                 <i className="fa-solid fa-code" />
               </div>
               <p>Making the Web Look Good</p>
-              <a href="">20 PROJECTS</a>
+              <NavLink to="/Projects">20 PROJECTS</NavLink>
             </>
           }
         />
@@ -62,7 +63,7 @@ function handleIndexValue (index){
                 <i className="fa-solid fa-terminal" />
               </div>
               <p>Building the Web&apos;s Backbone</p>
-              <a href="">20 PROJECTS</a>
+              <NavLink to="/Projects">20 PROJECTS</NavLink>
             </>
           }
         />

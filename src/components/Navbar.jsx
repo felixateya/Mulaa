@@ -1,5 +1,7 @@
 import {  Link, useLocation } from "react-router-dom";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, } from "react-icons/fa";
+
+import {RiMenu3Fill} from "react-icons/ri"
 
 
 
@@ -24,7 +26,10 @@ function Navbar() {
           <h3 className="title-first-name">Felix</h3>
           <h3 className="title-last-name">Mulaa</h3>
         </Link>
-        
+      <br></br>
+      <RiMenu3Fill className="menu-icon"/>
+      <br></br>
+      <div className="hidden">
       <div>
         <ul className="navbar-menu">
           <li>
@@ -86,6 +91,8 @@ function Navbar() {
             </a>
           </li>
         </ul>
+      </div>
+
       </div>
     </section>
   );

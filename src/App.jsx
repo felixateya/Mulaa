@@ -2,6 +2,7 @@
 
 // GOBAL CSS
 import "./App.css";
+
 //RESPONSIVE CSS
 import "./Responsive.css";
 //Page imports
@@ -17,6 +18,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+import { useKey } from "./utils/useKey";
 
 // function App() {
 //   const [step, setStep] = useState(0);
@@ -76,6 +78,8 @@ function App() {
       navigate(routes[step - 1]);
     }
   }
+  useKey("ArrowUp", handlePrev)
+useKey("ArrowDown", handleNext)
 
   useEffect(() => {
     AOS.init();
@@ -84,10 +88,16 @@ function App() {
   return (
     <>
       <div className="btns">
-        <button onClick={handlePrev} className={step === 0 ?  'previous last' : 'previous'}>
+        <button
+          onClick={handlePrev}
+          className={step === 0 ? "previous last" : "previous"}
+        >
           <IoIosArrowBack />
         </button>
-        <button onClick={handleNext} className={step === 0 ?  'next last' : 'next'}>
+        <button
+          onClick={handleNext}
+          className={step === 0 ? "next last" : "next"}
+        >
           <IoIosArrowForward />
         </button>
       </div>
@@ -103,14 +113,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-

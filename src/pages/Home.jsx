@@ -15,8 +15,8 @@ function Home() {
      data-aos-duration="500">
     <div className="body-part-1">
       <div className="developer-intro">
-        <p>Full-Stack Developer</p>
-        <p>Designer</p>
+        <p>Full-Stack Engineer</p>
+        <p>UI/UX Designer</p>
       </div>
       <div className="body-title">
         {/* <h1>Talk is cheap<br>Show me the code</h1> */}
