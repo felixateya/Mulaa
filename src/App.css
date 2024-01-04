@@ -184,7 +184,7 @@ body::selection {
 }
 
 .navbar-menu .active {
-  color: #64f4ac;
+  color: #7c7d81;
   font-weight: 900;
 }
 
@@ -197,7 +197,7 @@ body::selection {
 }
 
 .navbar-menu li a:hover {
-  color: #64f4ac;
+  color: #7c7d81;
   font-weight: 900;
 }
 
@@ -655,19 +655,18 @@ body::selection {
 
 .testimonial-title {
   display: flex;
-  width: 50%;
+  width: 90%;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.testimonial-title h4 {
-  margin: 0;
-  padding: 0;
+.testimonial-title h2 {
+  color: #7c7d81;
 }
 
 .testimonial-title p {
   color: #7c7d81;
-  font-size: 14px;
+  font-size: 22px;
   align-self: end;
   letter-spacing: -0.5px;
   font-weight: 600;

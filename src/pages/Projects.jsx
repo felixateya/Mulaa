@@ -19,19 +19,19 @@ function Projects() {
           <h3>Latest Works</h3>
           <p>Perfect solutions for digital experience</p>
         </div>
-        <a href="https://fiscall.vercel.app/" rel="noreferrer" target="_blank" className="project-card project-card-1">
+        <a href="https://hotel-mgt-oasis.netlify.app" rel="noreferrer" target="_blank" className="project-card project-card-1">
           <div className="title">
-            <h3>Fiscall</h3>
+            <h3>The Wild Oasis</h3>
             <div className="tech-stack">
-              <p>Bootstrap</p>
-              <p>ReactJS</p>
-              <p>Firebase</p>
+              <p>React query</p>
+              <p>React</p>
+              <p>Supabase</p>
             </div>
           </div>
           <img src={projectone} alt="" className="project-img-2" />
         </a>
         <div className="all-projects">
-          <a href="">
+          <a href="/">
             <h3>ALL PROJECTS</h3>
           </a>
           <p>
@@ -53,12 +53,13 @@ function Projects() {
           </div>
           <img src={projecttwo} alt="" className="project-img-1" />
         </a>
-        <a href="#" rel="noreferrer" target="_blank" className="project-card project-card-3">
+        <a href="https://fast-pizza-iota.vercel.app" rel="noreferrer" target="_blank" className="project-card project-card-3">
           <div className="title">
-            <h3>Focus</h3>
+            <h3>React Pizza</h3>
             <div className="tech-stack">
-              <p>ReactJS</p>
-              <p>ElectronJs</p>
+              <p>Redux toolkit</p>
+              <p>React</p> 
+              <p>Tailwind</p> 
             </div>
           </div>
           <img src={projectthree} alt="" className="project-img-3" />

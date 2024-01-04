@@ -54,8 +54,8 @@ function handleIndexValue (index){
       <p>4.5 Rating</p>
     </div>
     <h4>
-      Working with Felix was a pleasure. Their expertise in both design and
-      development allowed them to create a website that exceeded our
+      Working with Felix was a pleasure. His expertise in both design and
+      development allowed him to create a website that exceeded our
       expectations. We couldn&apos;t be happier with the end result.
     </h4>
     <FaQuoteRight className='quote'/>

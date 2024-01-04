@@ -78,8 +78,8 @@ function App() {
       navigate(routes[step - 1]);
     }
   }
-  useKey("ArrowUp", handlePrev)
-useKey("ArrowDown", handleNext)
+  useKey("ArrowLeft", handlePrev)
+useKey("ArrowRight", handleNext)
 
   useEffect(() => {
     AOS.init();
