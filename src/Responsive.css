@@ -145,6 +145,9 @@
   width: 100vw;
 
 }
+.navbar-menu{
+  margin-top: 55px;
+}
 .social-media{
   flex-direction: column;
   margin-top: 40px;
@@ -178,4 +181,14 @@
   top: 40px;
   justify-content: start;
 }
+}
+
+
+@media (max-width:600px){
+  .hoodie-guy{
+    display: none;
+  }
+  .background-circle{
+  display: none;
+  }
 }
