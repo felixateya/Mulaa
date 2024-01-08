@@ -138,6 +138,9 @@ body::selection {
 .menu-icon{
   display:none
 }
+.nav-icon{
+  display: none;
+}
 #check{
   display: none;
 }

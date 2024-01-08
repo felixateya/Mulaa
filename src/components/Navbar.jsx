@@ -2,6 +2,8 @@ import {  Link, useLocation } from "react-router-dom";
 import { FaEnvelope, FaGithub, FaLinkedin, } from "react-icons/fa";
 
 import {RiMenu3Fill} from "react-icons/ri"
+import { IoCloseSharp } from "react-icons/io5";
+
 
 
 
@@ -9,7 +11,6 @@ import {RiMenu3Fill} from "react-icons/ri"
 function CustomLink({ to, children }) {
   const location = useLocation();
   const isActive = location.pathname === to;
-
   return (
     <Link to={to} className={isActive ? "active" : ""}>
       {children}
@@ -19,6 +20,9 @@ function CustomLink({ to, children }) {
 
 
 function Navbar() {
+  
+
+ 
   return (
     <section id="header" data-aos = "fade-down" data-aos-easing="linear"
     data-aos-duration="1500">
@@ -29,6 +33,7 @@ function Navbar() {
       <input type="checkbox" name="check" id="check"/>
       <label htmlFor="check" className="menu-icon"><RiMenu3Fill/></label>
       <div className="hidden">
+        <label htmlFor="check" className="nav-icon"><IoCloseSharp/></label>
       <div>
         <ul className="navbar-menu">
           <li>
