@@ -29,7 +29,7 @@
     align-items: center;
     top: 78px;
     position: absolute;
-    background-color: #000000ba;
+    background-color: #000000e2;
     z-index: 1001;
     animation: slide 0.7s ease-in-out;
   }
@@ -146,11 +146,11 @@
 
 }
 .navbar-menu{
-  margin-top: 55px;
+  margin-top: 120px;
 }
 .social-media{
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 #content-body{
   width: 100vw;
