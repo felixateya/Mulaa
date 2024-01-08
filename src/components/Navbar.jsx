@@ -20,15 +20,14 @@ function CustomLink({ to, children }) {
 
 function Navbar() {
   return (
-    <section id="header" data-aos = "fade-down"data-aos-easing="linear"
+    <section id="header" data-aos = "fade-down" data-aos-easing="linear"
     data-aos-duration="1500">
         <Link to="/" className="navbar-title">
           <h3 className="title-first-name">Felix</h3>
           <h3 className="title-last-name">Mulaa</h3>
         </Link>
-      <br></br>
-      <RiMenu3Fill className="menu-icon"/>
-      <br></br>
+      <input type="checkbox" name="check" id="check"/>
+      <label htmlFor="check" className="menu-icon"><RiMenu3Fill/></label>
       <div className="hidden">
       <div>
         <ul className="navbar-menu">
@@ -62,14 +61,14 @@ function Navbar() {
       <div>
         <ul className="social-media">
           <li>
-            {/* <i className="fa-brands fa-Linkedin-in" /> */}
+            
             <FaLinkedin />
             <a href="/" target="_blank">
               LinkedIn
             </a>
           </li>
           <li>
-            {/* <i className="fa-brands fa-github" /> */}
+            
             <FaGithub />
             <a
               href="https://github.com/felixateya"
@@ -80,12 +79,12 @@ function Navbar() {
             </a>
           </li>
           <li>
-            {/* <i className="fa-regular fa-envelope" /> */}
+            
             <FaEnvelope />
             <a
               href="mailto:mulaafelix6@gmail.com"
               rel="noreferrer"
-              // target="_blank"
+              target="_blank"
             >
               Email
             </a>

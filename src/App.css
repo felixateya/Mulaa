@@ -138,6 +138,9 @@ body::selection {
 .menu-icon{
   display:none
 }
+#check{
+  display: none;
+}
 /* #content-body {
   display: flex;
   justify-content: space-around;
@@ -174,7 +177,7 @@ body::selection {
 .hidden{
   display: flex;
   /* margin-left: 22%; */
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .navbar-menu li {
@@ -184,7 +187,7 @@ body::selection {
 }
 
 .navbar-menu .active {
-  color: #7c7d81;
+  color: #00b840;
   font-weight: 900;
 }
 
@@ -243,20 +246,13 @@ body::selection {
   width: 100%;
   display: flex;
   background-color: #2d2e32;
-  align-items: flex-start;
+  
   height: 100vh;
-  max-height: max-content;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
-  padding: 100px 0 0 100px;
-  /* margin-bottom: 10vh; */
-  max-height: 100vh;
-  overflow-y: hidden;
+  padding: 50px 0 0 50px;
 }
- ::-webkit-scrollbar{
+ /* ::-webkit-scrollbar{
   display: none;
-}
+} */
 .body-part-1 {
   margin-top: 13%;
 }
@@ -348,7 +344,7 @@ body::selection {
 .circle {
   position: fixed;
   top: 400px;
-  left: 75%;
+  left: 72%;
   width: 80px;
   height: 100px;
   transform-style: preserve-3d;
