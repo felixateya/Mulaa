@@ -42,7 +42,7 @@ function Projects() {
         </div>
       </div>
       <div className="right-project">
-        <a href="https://concept-silk.vercel.app/" rel="noreferrer" target="_blank" className="project-card" id="project-card-2">
+        <a href="https://concept-silk.vercel.app/" rel="noreferrer" target="_blank" className="project-card project-card-2">
           <div className="title">
             <h3>Concept</h3>
             <div className="tech-stack">
@@ -57,7 +57,7 @@ function Projects() {
           <div className="title">
             <h3>React Pizza</h3>
             <div className="tech-stack">
-              <p>Redux toolkit</p>
+              <p>Redux</p>
               <p>React</p> 
               <p>Tailwind</p> 
             </div>

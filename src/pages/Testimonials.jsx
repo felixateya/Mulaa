@@ -26,7 +26,7 @@ function handleIndexValue (index){
      data-aos-duration="500">
   <div className="testimonial-title">
     <h2>Testimonials</h2>
-    <p>What clients say about me</p>
+    {/* <p>What clients say about me</p> */}
   </div>
   { activeIndex===0 && <TestimonialCard className={"testimonial-card"}>
     <div className="star-rating">
@@ -84,7 +84,7 @@ function handleIndexValue (index){
       <div>
         <h4>Harvey Spectre</h4>
         <p>
-          VP &amp; Co-Founder, <a href="">Suits</a>
+          VP &amp; Co-Founder, <a href="/">Suits</a>
         </p>
       </div>
     </ProfileCard>
@@ -94,7 +94,7 @@ function handleIndexValue (index){
       <div>
         <h4>Jon Snow</h4>
         <p>
-          VP, <a href="">A Song of Ice and Fire</a>
+          VP, <a href="/">A Song of Ice and Fire</a>
         </p>
       </div>
     </ProfileCard>
@@ -104,7 +104,7 @@ function handleIndexValue (index){
       <div>
         <h4>Mike Mclusky</h4>
         <p>
-          Freelancer, <a href="">Mayor of Kingstown</a>
+          Freelancer, <a href="/">Mayor of Kingstown</a>
         </p>
       </div>
     </ProfileCard>

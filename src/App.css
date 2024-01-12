@@ -411,7 +411,7 @@ body::selection {
 }
 
 .design-card {
-  max-width: 80%;
+  max-width: 90%;
   min-height: 150px;
   background-color: #2d2e32;
   padding: 20px;
@@ -531,7 +531,7 @@ body::selection {
 }
 
 .project-card {
-  min-width: 35vw;
+  min-width: 40vw;
   min-height: 60vh;
   max-height: 80vh;
   background-color: #2d3037;
@@ -578,7 +578,7 @@ body::selection {
   margin: 0 5px;
   padding: 5px;
   border-radius: 3px;
-  max-height: 25px;
+  max-height: 30px;
 }
 
 .project-card img {
@@ -674,11 +674,10 @@ body::selection {
 
 .testimonial-card {
   max-height: 300px;
-  width: 100%;
+  width: 95%;
   background-color: #25262a;
   padding: 40px 50px;
   border-radius: 8px;
-  margin: 30px 0;
   display: block;
   transition: 3s ease-in-out;
 }
@@ -722,7 +721,7 @@ body::selection {
 .client-profile-card {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  margin: 10px 0;
   cursor: pointer;
   width: 95%;
 }
